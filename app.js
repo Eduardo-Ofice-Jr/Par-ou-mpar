@@ -8,13 +8,7 @@ function clicar(){
 
     } else{
         alert('O NÚMERO É ÍMPAR')
-
     }
-
-    /*msg.style.marginTop = '20px'
-    msg.style.fontFamily = '"Nunito", sans-serif'
-    msg.style.fontWeight = '900'
-    msg.style.backgroundColor = 'yelow'*/
 }
 
 
