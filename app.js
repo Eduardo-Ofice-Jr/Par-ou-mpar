@@ -8,7 +8,6 @@ function clicar(){
 
     } else{
         alert('O NÚMERO É ÍMPAR')
-
     }
 
 
