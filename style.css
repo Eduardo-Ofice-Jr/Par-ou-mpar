@@ -22,7 +22,6 @@ p{
     width: 165px;
     font-size: 18px;
     text-align: center;
-
 }
 body{
     display: flex;
@@ -33,9 +32,7 @@ body{
 }
 
 button, .box_number, p{
-    font-family: "Nunito", sans-serif;
-    
-    
+    font-family: "Nunito", sans-serif;  
 }
 
 button{
