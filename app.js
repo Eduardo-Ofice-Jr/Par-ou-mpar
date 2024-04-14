@@ -1,18 +1,16 @@
-function clicar(){
-    var a = window.document.getElementById('box_number')
-    var a = Number(a.value)
-    var msg = window.document.getElementById('texto')
+function clicar() {
+    const input = document.getElementById('box_number')
+    const inputValue = input.value
 
-    if (a % 2 == 0){
-        alert('O NÚMERO É PAR')
-
-    } else{
-        alert('O NÚMERO É ÍMPAR')
+    if (inputValue.length < 1) {
+        notie.alert({ text: "Por favor, insira um número primeiro", type: 3 })
+        return;
     }
 
-
+    if (Number(inputValue) % 2 == 0) {
+        notie.alert({ text: 'O número é par' })
+    } else {
+        notie.alert({ text: 'O número é ímpar', type: 1 })
+    }
 }
-
-
-
 
