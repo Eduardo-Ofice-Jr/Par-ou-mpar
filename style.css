@@ -2,43 +2,55 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Pacifico', cursive; font-weight: normal;
+    font-family: "Nunito", sans-serif;
 }
 
-p{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-block: 1.5rem;
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 4rem;
+}
+
+h1 span {
+    font-family: 'Pacifico', cursive;
+    display: block;
+    line-height: 28px;
+}
+
+label {
+    display: block;
     font-size: 18px;
-    margin-top: 20px;
 }
 
-.box_number{
-    
+.box_number {
     font-weight: 600;
-    margin-top: 10px;
+    margin-top: 4px;
     height: 40px;
     width: 165px;
     font-size: 18px;
     text-align: center;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-    text-align: center;
-}
 
-button, .box_number, p{
-    font-family: "Nunito", sans-serif;  
-}
-
-button{
+button {
+    background: #000;
+    color: white;
     margin-top: 20px;
+    border: none;
+    border-radius: 4px;
     font-weight: 600;
-    width: 80px;
-    padding: 5px;
-    font-size: 13px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
 }
